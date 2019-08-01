@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+* {
+	font: 18px "正楷", Helvetica, Tahoma, Arial, "Microsoft jhengHei";
+}
+/* 注册样式 */
+table {
+	width: 450px;
+	text-align: center;
+	/* margin-left: 30px; */
+}
+
+table tr td {
+	border: 1px solid;
+}
+h3{
+	text-align: center;
+}
+input {
+	background-color: inherit;
+	margin-left: 5px;
+	float: left;
+	border: 1px solid #eee;
+	color: white;
+	border-radius: 5px;
+}
+/*表格左边信息栏样式  */
+.infor {
+	text-align: right;
+	padding: 10px;
+	width:100px;
+}
+/*性别单选框样式  */
+.sex {
+	float: none;
+}
+/* 下拉框省市样式 */
+.city-picker-select {
+	width: 25px;
+	float: left;
+	clear: both;
+}
+
+/* select {
+	border-radius: 10px;
+	border-color: #eee;
+	font-size: 15px;
+}
+
+option {
+	font-size: 15px;
+} */
+
+.add1 {
+	float: left;
+	margin-left: 5px;
+}
+
+.add2 {
+	float: left;
+	margin-left: 10px;
+}
+
+.add3 {
+	float: left;
+	margin-left: 10px;
+}
+/* 邮箱样式 */
+.email1 {
+	width: 110px;
+}
+
+.email2 {
+	float: left;
+}
+/* 提交按钮样式 */
+.submit {
+	text-align: center;
+	padding: 0;
+	width: 75px;
+	font-size: 18px;
+	color: black;
+	height: 30px;
+	background: #00fbfb;
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 0px;
+}
+/* 重置按钮样式 */
+.reset {
+	text-align: center;
+	padding: 0;
+	width: 75px;
+	font-size: 18px;
+	height: 30px;
+	color: black;
+	background: #00fbfb;
+	float: inherit;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.index {
+	text-align: center;
+	padding: 0;
+	width: 75px;
+	font-size: 18px;
+	height: 30px;
+	color: black;
+	background: #00fbfb;
+	float: inherit;
+	margin-top: 10px;
+	margin-left:0px;
+}
